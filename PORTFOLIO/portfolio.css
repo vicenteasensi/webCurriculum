@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: #0a00c8;
+  color: #fff;
+
+  padding: 20px;
+
+}
+
+
+.header-content {
+  display: flex;
+  align-items: center;
+  
+}
+
+header img {
+  width: 15%;
+  height: 15%;
+  margin-right: 80px;
+}
+
+
+nav {
+  background-color: #05005b;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+
+section {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+
+section h2 {
+  color: #333;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+footer {
+  background: rgb(0, 0, 78);
+  height: auto;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.footer-content p {
+  max-width: 500px;
+  margin: 20px auto;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+
+/*************************************/
+
+.faqs {
+  width: 1000px;
+  padding: 40px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+summary {
+  background: rgb(0, 0, 78);
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.h2faqs {
+  text-align: center;
+}
+
+/*******************************************/
+
+.contenedor {
+  background-color: #3498db; /* Color azul */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 20px;
+  max-width: 300px;
+}
